@@ -1,0 +1,31 @@
+{
+   "manifest": {
+      "attributes": {
+      },
+      "critical-update": false,
+      "description": "DLC package for borealis.",
+      "factory-install": false,
+      "force-ota": false,
+      "fs-type": "squashfs",
+      "id": "borealis-dlc",
+      "image-sha256-hash": "470c4790bb69b534535e19ac3af44f8a30c52bff67a6a0c18fe4eabf5271678a",
+      "image-type": "dlc",
+      "is-removable": true,
+      "loadpin-verity-digest": false,
+      "manifest-version": 1,
+      "mount-file-required": false,
+      "name": "borealis-dlc",
+      "package": "package",
+      "powerwash-safe": false,
+      "pre-allocated-size": "2147483648",
+      "preload-allowed": true,
+      "reserved": false,
+      "scaled": false,
+      "size": "547246080",
+      "table-sha256-hash": "5390e562ee065e60dbf2ab58364e926d85fee21bad864a2fd546dc613431efab",
+      "use-logical-volume": false,
+      "user-tied": false,
+      "version": "144.2026.01.15.062718-r1"
+   },
+   "table": "0 1060472 verity payload=ROOT_DEV hashtree=HASH_DEV hashstart=1060472 alg=sha256 root_hexdigest=337fb18928a6ae853864e3fa482dc4045f0c51dd1f3e91292fe6d877302c6e3c salt=1337d00d00000000000000000000000000000000000000000000000000000000"
+}
