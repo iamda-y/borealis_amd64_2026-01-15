@@ -24,7 +24,7 @@ blah blah blah
 - Prerequisites
 ```sh
 sudo truncate -s 0 /var/log/update_engine.log                                           # clear logs
-sudo dlcservice_util --install --id="borealis-dlc"                                      # uninstall
+sudo dlcservice_util --uninstall --id="borealis-dlc"                                      # uninstall
 cat /etc/lsb-release && dlc_metadata_util --get --id="borealis-dlc"                     # pre-compare
 sudo initctl stop update-engine                                                         # pre-spoof 
 sudo initctl stop dlcservice                                                            # pre-spoof
